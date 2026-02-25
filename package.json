@@ -1,0 +1,23 @@
+{
+  "name": "pi-link-sessions",
+  "version": "0.1.0",
+  "description": "Pi extension that links the current cwd session folder to another session folder with live preview and safety guards",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/link-sessions.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "files": [
+    "extensions/",
+    "README.md",
+    "LINK-SESSION-FOLDER.md"
+  ]
+}
