@@ -37,3 +37,9 @@ In pi, run:
 ```
 
 If pi is already running after install, run `/reload` once.
+
+## Testing
+
+```bash
+npm test
+```

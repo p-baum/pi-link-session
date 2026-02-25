@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Pi extension that links the current cwd session folder to another session folder with live preview and safety guards",
   "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/**/*.test.ts"
+  },
   "keywords": [
     "pi-package"
   ],
