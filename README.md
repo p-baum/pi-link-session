@@ -1,8 +1,8 @@
 # pi-link-sessions
 
-Pi package that adds a `/link-sessions` command which allows you to pick a folder under your session root to link the current cwd session via symlink.
+Pi package that adds a `/link-sessions` command which allows you to easily choose and link a session from another folder to the current session via symlink.
 
-It will not destroy non-symlink session directories outside the current mapping path and, when the current session directory already contains sessions, warns before permanent deletion.
+It will not destroy session directories not owned by the current session and warns when the current session directory already contains sessions which should be replaced (linked).
 
 ## Why?
 
